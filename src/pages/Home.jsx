@@ -35,7 +35,7 @@ const HomeLayout = styled.div`
     }
 
     &.intro_section {
-      min-height: 100vh;
+      min-height: calc(100 * var(--vh));
       display: flex;
       flex-direction: column;
       justify-content: flex-end;

@@ -8,7 +8,7 @@ const CustomCursor = styled.div`
   pointer-events: none;
   opacity: 0;
   width: 100%;
-  height: 100vh;
+  height: calc(100 * var(--vh));
   transition: opacity 0.4s linear;
   -webkit-transition: opacity 0.4s linear;
 

@@ -34,7 +34,7 @@ const WorkList = ({ workArray }) => {
         workArray.map((work) => (
           <motion.li
             key={work.id}
-            initial={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.8, once: true }}
           >

@@ -13,6 +13,7 @@ const DetailLayout = styled.div`
   --detail_flex_gap: 2rem;
   --detail_desc_gap: 3rem;
   --detail_image_gap: 6rem;
+  --detail_mo_image_height: calc(80 * var(--vh));
 
   section + section {
     padding-top: calc(var(--section_gap) / 2);
@@ -109,7 +110,7 @@ const DetailLayout = styled.div`
             }
             &.mobile {
               width: fit-content;
-              height: 80vh;
+              height: var(--detail_mo_image_height);
               video {
                 height: 100%;
                 width: auto;
@@ -122,7 +123,7 @@ const DetailLayout = styled.div`
             overflow: hidden;
             &.mobile {
               width: fit-content;
-              height: 80vh;
+              height: var(--detail_mo_image_height);
             }
             img {
               width: 100%;

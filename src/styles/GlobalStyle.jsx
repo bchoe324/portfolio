@@ -425,7 +425,7 @@ html {
   ${responsiveValue("--section_gap", 200, 100, 1920, 360)}
   --space_horizontal: 3rem;
   --title_margin_bottom : 4rem;
-  --footer_height: 20vh;
+  --footer_height: calc(20 * var(--vh));
   --max_width: 1920px;
   --min_width: 360px;
 }
