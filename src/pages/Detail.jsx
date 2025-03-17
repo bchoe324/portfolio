@@ -284,7 +284,7 @@ const Detail = () => {
             {!!data.videos.length &&
               data.videos.map((video, index) => (
                 <div key={index} className={`wrapper ${video.class}`}>
-                  <video key={video.src} muted autoPlay>
+                  <video key={video.src} muted autoPlay loop>
                     <source src={video.src} type="video/mp4" />
                   </video>
                 </div>
