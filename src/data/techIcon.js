@@ -9,6 +9,10 @@ import github from "../assets/icons/github.svg";
 import gitlab from "../assets/icons/gitlab.svg";
 import figma from "../assets/icons/figma.svg";
 import photoshop from "../assets/icons/photoshop.svg";
+import nextjs from "../assets/icons/nextjs.svg";
+import mestjs from "../assets/icons/nestjs.svg";
+import prisma from "../assets/icons/prisma.svg";
+import supabase from "../assets/icons/supabase.svg";
 
 export const techIcons = [
   {
@@ -34,6 +38,22 @@ export const techIcons = [
   {
     name: "React",
     img: react,
+  },
+  {
+    name: "NextJs",
+    img: nextjs,
+  },
+  {
+    name: "NestJs",
+    img: nextjs,
+  },
+  {
+    name: "Prisma",
+    img: prisma,
+  },
+  {
+    name: "Supabase",
+    img: supabase,
   },
   {
     name: "Firebase",

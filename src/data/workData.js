@@ -181,15 +181,17 @@ export const workData = [
   {
     id: 9,
     title: "Tickets",
-    tags: ["React", "TypeScript", "Firebase"],
+    tags: ["React", "TypeScript", "Firebase", "Next.js", "NestJS", "Supabase"],
     links: [
       { type: "github", href: "https://github.com/bchoe324/tickets" },
-      { type: "link", href: "https://tickets-719bb.web.app/" },
+      { type: "link", href: "https://tickets-ten-pi.vercel.app/" },
     ],
     text: [
       "Tickets는 공연 일정을 기록할 수 있는 토이 프로젝트입니다.",
       "등록한 공연 일정을 캘린더에서 확인할 수 있으며, 예매 통계 조회 및 공연 정보 조회, 공연 리뷰 작성이 가능합니다.",
       "React와 TypeScript로 개발하였고, Firebase Authentication을 사용해 이메일로 로그인 및 회원가입 기능을 구현했습니다. 공연 일정과 리뷰의 데이터는 Firebase FireStore에 저장하며, 이미지는 Firebase Storage를 사용합니다. 또한 예매 통계 및 공연 상세 정보는 공연예술통합전산망 OPEN API를 활용하여 가져옵니다. 배포는 Firebase Hosting을 통해 진행했습니다.",
+      "🚀 Next.js 기반으로 리팩토링된 버전을 배포했습니다.",
+      "Next.js로 변경하면서 NestJs와 Prisma를 활용하여 백엔드를 구성하였고, Supabase의 Auth, Storage, DB 활용하였습니다.",
     ],
     images: [
       {
