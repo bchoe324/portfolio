@@ -10,7 +10,7 @@ import gitlab from "../assets/icons/gitlab.svg";
 import figma from "../assets/icons/figma.svg";
 import photoshop from "../assets/icons/photoshop.svg";
 import nextjs from "../assets/icons/nextjs.svg";
-import mestjs from "../assets/icons/nestjs.svg";
+import nestjs from "../assets/icons/nestjs.svg";
 import prisma from "../assets/icons/prisma.svg";
 import supabase from "../assets/icons/supabase.svg";
 
@@ -45,7 +45,7 @@ export const techIcons = [
   },
   {
     name: "NestJs",
-    img: nextjs,
+    img: nestjs,
   },
   {
     name: "Prisma",
